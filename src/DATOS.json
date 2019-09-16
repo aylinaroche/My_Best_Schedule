@@ -1,0 +1,134 @@
+{
+    "Universidad": {
+        "001": {
+            "nombre": "Universidad San Carlos de Guatemala",
+            "acronimo": "USAC"
+        }
+    },
+    "Facultad": {
+        "001": {
+            "nombre": "Faculdad de Ingenería"
+        }
+    },
+    "Carrera": {
+        "001": {
+            "nombre": "Ingeniería en Ciencias y Sistemas"
+        },
+        "002": {
+            "nombre": "Ingeniería Mecánica Industrial"
+        }
+    },
+    "Unidad": {
+        "001": {
+            "Universidad": "001",
+            "Facultad": "001",
+            "Carrera": "001",
+            "Pensum": "001"
+        }
+    },
+    "Pensum": {
+        "001": {
+            "017": {
+                "Nombre": "Social Humanística 1",
+                "Creditos": "4",
+                "Prerrequisitos": ""
+            },
+            "101": {
+                "Nombre": "Matemática Básica 1",
+                "Creditos": "7",
+                "Prerrequisitos": ""
+            },
+            "069": {
+                "Nombre": "Técnica Complementaria 1",
+                "Creditos": "3",
+                "Prerrequisitos": ""
+            },
+            "039": {
+                "Nombre": "Deportes 1",
+                "Creditos": "1",
+                "Prerrequisitos": ""
+            },
+            "019": {
+                "Nombre": "Química General",
+                "Creditos": "3",
+                "Prerrequisitos": ""
+            },
+            "0006": {
+                "Nombre": "Idioma Técnico 1",
+                "Creditos": "2",
+                "Prerrequisitos": ""
+            },
+            "019": {
+                "Nombre": "Social Humanística 2",
+                "Creditos": "4",
+                "Prerrequisitos": "017"
+            },
+            "101": {
+                "Nombre": "Mate Básica 2",
+                "Creditos": "7",
+                "Prerrequisitos": "101"
+            },
+            "005": {
+                "Nombre": "Técnicas de estudio",
+                "Creditos": "3",
+                "Prerrequisitos": ""
+            },
+            "147": {
+                "Nombre": "Física Básica",
+                "Creditos": "5",
+                "Prerrequisitos": "101"
+            },
+            "040": {
+                "Nombre": "Deportes 2",
+                "Creditos": "1",
+                "Prerrequisitos": "039"
+            },
+            "0008": {
+                "Nombre": "Idioma Técnico 2",
+                "Creditos": "2",
+                "Prerrequisitos": "0006"
+            },
+            "795": {
+                "Nombre": "Lógica de Sistemas",
+                "Creditos": "2",
+                "Prerrequisitos": "103"
+            },
+            "960": {
+                "Nombre": "Mate Computo 1",
+                "Creditos": "5",
+                "Prerrequisitos": "103"
+            },
+            "770": {
+                "Nombre": "Introducción a la programación y Computación 1",
+                "Creditos": "4",
+                "Prerrequisitos": "039"
+            },
+            "107": {
+                "Nombre": "Mate Intermedia 1",
+                "Creditos": "10",
+                "Prerrequisitos": "103"
+            },
+            "150": {
+                "Nombre": "Física 1",
+                "Creditos": "6",
+                "Prerrequisitos": "103"
+            },
+            "0009": {
+                "Nombre": "Idioma Técnico 3",
+                "Creditos": "2",
+                "Prerrequisitos": []
+            },
+            "732": {
+                "Nombre": "Estadística 1",
+                "Creditos": "5",
+                "Prerrequisitos": ["107"]
+            },
+            "796": {
+                "Nombre": "Lenguajes Formales y de Programación",
+                "Creditos": "5",
+                "Prerrequisitos": ["770","795"]
+            }
+
+        }
+    }
+}
